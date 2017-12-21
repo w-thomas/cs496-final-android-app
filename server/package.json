@@ -1,0 +1,32 @@
+{
+  "name": "assignment3",
+  "version": "0.1.0",
+  "description": "project 3",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --use_strict index.js",
+    "start": "node --use_strict index.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "author": "Will Thomas <thomasw@oregonstate.edu>",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "helmet": "^2.1.2",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.15.0",
+    "mongoose": "^4.5.9",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^6.0.0",
+    "nodemon": "^1.9.2"
+  }
+}
